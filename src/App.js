@@ -1,9 +1,15 @@
+import { Fragment } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Subtitulo from './components/Subtitulo';
+import Titulo from './components/Titulo';
 
 function App() {
   return (
-    <div>
-    </div>
+    <Fragment>
+        <Titulo></Titulo>
+        <Subtitulo/>
+    </Fragment>   
   );
 }
 
