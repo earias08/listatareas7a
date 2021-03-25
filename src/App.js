@@ -3,12 +3,14 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Subtitulo from './components/Subtitulo';
 import Titulo from './components/Titulo';
+import FormTarea from './components/FormTarea';
 
 function App() {
   return (
     <Fragment>
         <Titulo></Titulo>
-        <Subtitulo/>
+        <Subtitulo comision='7' estado={true}/>
+        <FormTarea></FormTarea>
     </Fragment>   
   );
 }
