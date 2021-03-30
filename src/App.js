@@ -9,7 +9,7 @@ function App() {
   return (
     <Fragment>
         <Titulo></Titulo>
-        <Subtitulo comision='7' estado={true}/>
+        <Subtitulo comision='7A' estado={true}/>
         <FormTarea></FormTarea>
     </Fragment>   
   );
